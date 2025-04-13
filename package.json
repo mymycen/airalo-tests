@@ -1,0 +1,26 @@
+{
+  "name": "counter-app",
+  "version": "1.0.0",
+  "description": "A simple counter app with Cypress E2E tests",
+  "scripts": {
+    "start": "npx http-server ./public -p 3000",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:e2e": "cypress run",
+    "test": "mocha test/*.test.js"
+  },
+  "devDependencies": {
+    "axios": "^1.8.4",
+    "cypress": "^14.2.1",
+    "http-server": "^14.1.1",
+    "mocha": "^11.1.0",
+    "wait-on": "^7.2.0"
+  },
+  "main": "cypress.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7"
+  }
+}
