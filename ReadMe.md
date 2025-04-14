@@ -3,7 +3,7 @@
 This repository contains automated test suites for the Airalo project. The tests cover both the UI end-to-end (E2E) flows on the Airalo website using Cypress and the API flows for the Airalo Partner API using Mocha, Chai, and Axios.
 
 > **Note:**  
-> Due to known sandbox limitations, certain API endpoints (e.g. ordering eSIMs) may return errors even if the metadata indicates availability. In such cases, fallback or simulation logic is implemented so that the complete test flow cn be demonstrated.
+> Due to known sandbox limitations, certain API endpoints (e.g. ordering eSIMs) may return errors even if the metadata indicates availability. In such cases, fallback or simulation logic is implemented so that the complete test flow can be demonstrated.
 
 ---
 
@@ -31,7 +31,7 @@ This project demonstrates automated testing for two parts of the Airalo solution
 1. **UI End-to-End Testing (using Cypress):**  
    Verifies the Japan eSIM package on the Airalo website by:
    - Navigating to the site and setting up the environment (language and currency).
-   - Searching for “Japan” and selecting an option from the autocomplete dropdown.
+   - Searching for “Japan” and selecting an option from the dropdown.
    - Clicking on the eSIM package and verifying its details (Title, Coverage, Data, Validity, and Price).
 
 2. **API Testing (using Mocha/Chai/Axios):**  
